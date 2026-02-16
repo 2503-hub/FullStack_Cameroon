@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "server": "npm run dev --prefix backend",
-    "client": "npm start --prefix frontend/front-app",
+    "client": "npm start --prefix frontend",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "devDependencies": {

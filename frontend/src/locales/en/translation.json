@@ -1,0 +1,254 @@
+{
+  "nav": {
+    "home": "Home",
+    "history": "History",
+    "culture": "Culture",
+    "attire": "Traditional Attire",
+    "food": "Food",
+    "language": "Language",
+    "dances": "Traditional Dances",
+    "explore": "Explore",
+    "contact": "Contact"
+  },
+  "newsletter": {
+    "placeholder": "Enter your email",
+    "subscribe": "Subscribe",
+    "submitting": "Submitting...",
+    "emptyEmail": "Please enter your email",
+    "serverError": "Server error. Please try again later."
+  },
+  "contact": {
+    "title": "Stay Connected",
+    "intro": "Subscribe to our newsletter and stay updated with Cameroon's history, culture, and places worth exploring.",
+
+    "emailPlaceholder": "Enter your email address",
+    "subscribe": "Subscribe",
+
+    "successTitle": "Thank you for subscribing",
+    "successSubtitle": "You'll hear from us soon.",
+
+    "unsubscribePrompt": "Want to leave the newsletter?",
+    "unsubscribePlaceholder": "Enter email to unsubscribe",
+    "unsubscribe": "Unsubscribe",
+
+    "privacy": "No spam. Only meaningful updates. You can unsubscribe anytime.",
+    "serverError": "Server error. Please try again later."
+  },
+
+  "history": {
+    "title": "Historical Figures of Cameroon",
+    "figures": {
+      "eto": {
+        "name": "Samuel Eto'o",
+        "text": "Samuel Eto'o Fils is one of Africa's most decorated footballers, widely regarded as one of the greatest strikers of all time. A four-time African Player of the Year, he led the Indomitable Lions to two Africa Cup of Nations titles and an Olympic Gold medal. Beyond the pitch, Eto'o has become a powerful figure in sports administration, serving as the President of FECAFOOT, and remains a global ambassador for Cameroonian excellence and philanthropy."
+      },
+      "ahidjo": {
+        "name": "Ahmadou Ahidjo",
+        "text": "Ahmadou Ahidjo served as the first President of Cameroon from 1960 to 1982. He played a central role in the unification of the French-administered and British-administered territories into a single nation. His era was defined by a strong focus on national stability, the development of infrastructure, and the 'Green Revolution' to boost agriculture. He is remembered as the founding father who navigated the early, complex years of Cameroonian independence."
+      },
+      "fruNdi": {
+        "name": "John Fru Ndi",
+        "text": "John Fru Ndi was a pivotal figure in the restoration of multi-party democracy in Cameroon during the 1990s. As the founder of the Social Democratic Front (SDF), he became the face of the opposition, advocating for social justice, regional autonomy, and political reform. His charismatic leadership and the famous 'Power to the People' slogan mobilized millions, forever changing the country's political landscape and encouraging civic engagement."
+      },
+      "umNyobe": {
+        "name": "Ruben Um Nyobè",
+        "text": "Known as 'Mpodol' (the one who carries the word of his people), Ruben Um Nyobè was a brilliant nationalist leader and the head of the UPC. He was a fierce advocate for total independence from colonial rule and the immediate reunification of Cameroon. His intellectual depth and commitment to the grassroots struggle made him a symbol of resistance; though he fell in 1958, his legacy as the soul of the Cameroonian independence movement remains immortal."
+      },
+      "mangaBell": {
+        "name": "Rudolf Duala Manga Bell",
+        "text": "Rudolf Duala Manga Bell was the King of the Duala people and a courageous leader of the anti-colonial resistance against German rule. He famously led a legal and political battle against the forced expropriation of Duala ancestral lands. Despite his noble attempts at diplomacy, he was executed in 1914. Today, he is honored as a national martyr and a hero who sacrificed his life to defend the land rights and dignity of his people."
+      }
+    }
+  },
+  "culture": {
+    "title": "Culture of Cameroon",
+    "items": {
+      "attire": {
+        "title": "Traditional Attire",
+        "text": "Cameroonian traditional attire reflects the immense cultural diversity of the nation. Each region and ethnic group possesses unique clothing styles symbolizing identity, status, and heritage. From the richly embroidered Toghu of the Grassfields to colorful pagnes, these garments are worn during ceremonies, festivals, and rites of passage, preserving ancestral pride."
+      },
+      "music": {
+        "title": "Music and Dance",
+        "text": "Music and dance are central to Cameroonian culture. Genres such as Makossa, Bikutsi, and Assiko have gained international recognition. Traditional instruments like drums and balafons accompany dances performed during festivals, funerals, and royal ceremonies, transmitting history and values across generations."
+      },
+      "cuisine": {
+        "title": "Cuisine",
+        "text": "Cameroonian cuisine is rich, spicy, and diverse. Popular dishes include Ndolé, Eru, Achu, and Koki, prepared with cassava, plantains, maize, and leafy vegetables. Meals are communal experiences that reflect hospitality, unity, and cultural identity."
+      },
+      "language": {
+        "title": "Languages and Oral Traditions",
+        "text": "Cameroon has over 250 indigenous languages alongside English and French. Oral traditions such as storytelling, proverbs, and folklore are essential tools for education, moral instruction, and cultural preservation passed down by elders."
+      },
+      "customs": {
+        "title": "Customs and Social Life",
+        "text": "Customs guide daily life in Cameroonian communities. Respect for elders, strong family bonds, and communal solidarity define social organization. Ceremonies like marriages, funerals, and naming rites reinforce unity and continuity."
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Welcome to Cameroon",
+      "subtitle": "Discover our history, culture, and explore our beautiful country",
+      "unsupported": "Your browser does not support the video tag."
+    },
+    "history": {
+  "title": "History",
+  "subtitle": "Discover inspiring figures who made our country proud!",
+  "figures": [
+    {
+      "name": "Samuel Eto'o",
+      "description": " Cameroonian footballer known worldwide for his achievements."
+    },
+    {
+      "name": "Ahmadou Ahidjo",
+      "description": "The first President of Cameroon who played a key role in its independence."
+    },
+    {
+      "name": "John Fru Ndi",
+      "description": "Prominent opposition leader and advocate for democracy in Cameroon."
+    },
+    {
+      "name": "Ruben Um Nyobè",
+      "description": "Nationalist leader and martyr of Cameroon’s independence struggle."
+    },
+    {
+      "name": "Rudolf Duala Manga Bell",
+      "description": "Cameroonian king and resistance leader during the German colonial period."
+    }
+  ],
+  "readMore": "Read More"
+    },
+    "culture": {
+      "title": "Culture",
+      "subtitle": "Explore the vibrant traditions and arts that define Cameroon!",
+      "items": [
+        { "title": "Traditional Music & Dance", "description": "Makossa, Bikutsi, and Assiko — rhythms that move the nation." },
+        { "title": "Cuisine", "description": "Indulge in the rich flavors of Cameroonian dishes like Ndolé and Eru." },
+        { "title": "Languages", "description": "Over 250 languages spoken, reflecting our incredible diversity." },
+        { "title": "Festivals & Celebrations", "description": "From Ngondo to Fête de la Jeunesse, traditions come alive." }       
+      ],
+      "readMore": "Read More"
+    },
+    "explore": {
+      "title": "Explore",
+      "subtitle": "Discover the natural wonders and hidden gems of Cameroon!",
+      "items": [
+        { "title": "Gorges de Kola", "description": "The contrast between the stark, sun-bleached rocks and the deep blue pools of water is spectacular." },
+        { "title": "Lake Tison", "description": "a place of absolute serenity. Unlike some of the more \"active\" tourist sites, Tison is for quiet reflection, picnics, and photography." },
+        { "title": "Rhumsiki and the Mandara Mountains", "description": "The region is home to the Kapsiki people, whose customs and architecture remain deeply preserved." },
+        { "title": "Mount Cameroon", "description": "The highest peak in West Africa, offering breathtaking views and hiking adventures." }
+      ],
+      "readMore": "Read More"
+    },
+    "newsletter": {
+      "title": "Subscribe to our Newsletter",
+      "subtitle": "Get the latest updates on Cameroon's culture, history, and cities!",
+      "placeholder": "Enter your email",
+      "button": "Subscribe",
+      "enterEmail": "Please enter your email",
+      "serverError": "Server error. Please try again later."
+    }
+  },
+  "foodPage": {
+    "title": "Traditional Cameroonian Dishes",
+    "ekwang": {
+      "name": "Ekwang",
+      "description": "Ekwang is a traditional Cameroonian dish made from grated cocoyam wrapped in cocoyam leaves and cooked with palm oil, spices, and meat or fish. It is especially popular among the Bakweri people and is known for its rich, earthy flavor."
+    },
+    "eru": {
+      "name": "Eru",
+      "description": "Eru is a leafy vegetable dish prepared with finely shredded eru leaves, waterleaf, palm oil, and assorted meat or fish. It is commonly eaten with garri or water fufu and is a staple in the South-West and North-West regions."
+    },
+    "mbongo": {
+      "name": "Mbongo Tchobi",
+      "description": "Mbongo Tchobi is a dark, spicy stew made with roasted spices and traditionally cooked with fish. Originating from the coastal regions, it is famous for its deep black color and intense smoky flavor."
+    },
+    "kondre": {
+      "name": "Kondre",
+      "description": "Kondre is a traditional plantain-based dish cooked with pork, spices, and aromatic herbs. It originates from the West region of Cameroon and is often served during celebrations and family gatherings."
+    }
+  },
+  "languagePage": {
+    "title": "Ethnic Languages of Cameroon",
+    "ewondo": {
+      "name": "Ewondo",
+      "description": "Ewondo is widely spoken in the Centre region of Cameroon. It is commonly used in daily communication, cultural ceremonies, and traditional storytelling."
+    },
+    "duala": {
+      "name": "Duala",
+      "description": "Duala is spoken mainly in the Littoral region. It played a key role in early trade and cultural exchange along the coast."
+    },
+    "fulfulde": {
+      "name": "Fulfulde",
+      "description": "Fulfulde is spoken by the Fulani people in the northern regions of Cameroon. It is used across several countries in West and Central Africa."
+    },
+    "bassa": {
+      "name": "Bassa",
+      "description": "Bassa is spoken in the Centre and Littoral regions. It is an important language for cultural identity and oral traditions."
+    }
+  },
+  "attirePage": {
+    "title": "Traditional Attire of Cameroon",
+    "toghu": {
+      "name": "Toghu",
+      "description": "Originating from the Grassfields of the Northwest Region, the Toghu is a majestic, hand-embroidered garment made of heavy black velvet. It features intricate, colorful patterns (usually in yellow, red, and white). Historically worn by royalty and notables, it has now become a global symbol of Cameroonian identity, often worn by athletes and diplomats."
+    },
+    "sanja": {
+      "name": "Sanja",
+      "description": "The Sanja is the traditional loincloth of the Sawa people (coastal regions like Douala). It is a large piece of high-quality fabric (often loincloth or silk) wrapped around the waist and reaching the ankles, paired with a white shirt and a scarf. It represents the elegance and the \"gentleman\" spirit of the coastal men during grand ceremonies and the Ngondo festival."
+    },
+    "ndop": {
+      "name": "Ndop",
+      "description": "The Ndop is a traditional indigo-dyed fabric also from the Western Highlands (Grassfields). It is characterized by white geometric patterns and symbols on a deep blue background. This fabric is highly sacred; it is used to decorate royal courts, wrap the remains of chiefs, and serve as a backdrop for traditional justice ceremonies."
+    },
+    "obom": {
+      "name": "Obom",
+      "description": "The Obom is a unique \"bark cloth\" made from the beaten bark of the tropical fig tree. Typical of the Beti-Fang and forest peoples of the Center, South, and East regions, it is one of Cameroon's oldest fabrics. Today, it is used for traditional rites, dance costumes, and high-fashion accessories to honor ancestral roots."
+    }
+  },
+  "dancePage": {
+    "title": "Traditional Dances of Cameroon",
+    "bikutsi": {
+      "name": "Bikutsi",
+      "description": "Bikutsi is a rhythmic dance from the Centre region, often performed during celebrations with energetic movements and drum rhythms."
+    },
+    "ambass": {
+      "name": "Ambass Bey",
+      "description": "Ambass Bey is a traditional dance from the Littoral region, known for its elegant movements and cultural significance."
+    },
+    "ben": {
+      "name": "Bensikin",
+      "description": "Bensikin is a traditional dance performed by the Bamileke people in the West region of Cameroon. It is often performed during royal ceremonies, festivals, and cultural celebrations."
+    },
+    "assiko": {
+      "name": "Assiko",
+      "description": "Assiko is a traditional dance performed during the Ngondo festival along the Wouri River, celebrating the Sawa people’s heritage."
+    }
+  },
+
+  "destinationsPage": {
+    "title": "Must-Visit Sites in Cameroon",
+    "mountCameroon": {
+      "title": "Mount Cameroon",
+      "text": "Mount Cameroon, also known as Mount Fako, is the highest mountain in West and Central Africa. Located in the Southwest Region, it rises majestically from the Atlantic coast, offering a unique blend of volcanic landscapes, forests, and alpine vegetation.\n\nThe mountain is still active and holds cultural significance for local communities. It also hosts the annual Mount Cameroon Race of Hope, attracting athletes from around the world.\n\nExploring Mount Cameroon is both a physical challenge and a cultural experience, making it one of the country's most iconic natural landmarks."
+    },
+    "gorgesKola": {
+      "title": "Gorges de Kola",
+      "text": "Often called the \"Grand Canyon of Cameroon,\" the Gorges de Kola are a massive geological masterpiece carved out over thousands of years by the Mayo-Louti River.\n\nImagine giant, smooth, pale grey limestone rocks that have been polished into surreal, flowing shapes by the water. In the dry season, you can walk deep into the canyon, exploring caves and narrow passages where the rocks rise up to 30 meters high on either side.\n\nBest time to visit is during the dry season (late November to April)."
+    },
+    "lakeTison": {
+      "title": "Lake Tison",
+      "text": "Lake Tison is a breathtaking volcanic crater lake perched on the Adamawa Plateau. It is famous for its nearly perfect circular shape and its deep, turquoise-to-emerald waters. The lake is surrounded by a ring of lush green trees and volcanic rocks that reflect beautifully on the calm surface."
+    },
+    "ekomNkam": {
+      "title": "Ekom Nkam Falls",
+      "text": "Hidden deep within a dense tropical rainforest, these are arguably the most famous waterfalls in Cameroon. The site actually features two distinct falls. Local tradition refers to them as the Male and Female falls. The Male fall flows powerfully year-round, while the Female fall is only visible in its full glory during the rainy season."
+    },
+    "rhumsiki": {
+      "title": "Rhumsiki and the Mandara Mountains",
+      "text": "Rhumsiki, nestled in the Mandara Mountains, is known for its dramatic volcanic rock formations and rich cultural traditions. The region is home to the Kapsiki people, whose customs and architecture remain deeply preserved.\n\nVisitors are drawn to the unique landscapes, traditional huts, and local craftsmanship. The area also offers panoramic views and a sense of timelessness.\n\nRhumsiki represents the cultural and geological diversity of northern Cameroon."
+    }
+  }
+}
+
+

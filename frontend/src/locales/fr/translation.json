@@ -1,0 +1,266 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "history": "Histoire",
+    "culture": "Culture",
+    "attire": "Tenues Traditionnelles",
+    "food": "Cuisine",
+    "language": "Langues",
+    "dances": "Danses Traditionnelles",
+    "explore": "Explorer",
+    "contact": "Contact"
+  },
+
+  "newsletter": {
+    "placeholder": "Entrez votre adresse email",
+    "subscribe": "S'abonner",
+    "submitting": "Envoi en cours...",
+    "emptyEmail": "Veuillez entrer votre adresse email",
+    "serverError": "Erreur du serveur. Veuillez réessayer plus tard."
+  },
+
+  "contact": {
+    "title": "Restez connectés",
+    "intro": "Abonnez-vous à notre newsletter et restez informé sur l'histoire, la culture et les lieux incontournables du Cameroun.",
+
+    "emailPlaceholder": "Entrez votre adresse email",
+    "subscribe": "S'abonner",
+
+    "successTitle": "Merci pour votre abonnement ",
+    "successSubtitle": "Vous aurez bientôt de nos nouvelles.",
+
+    "unsubscribePrompt": "Vous souhaitez quitter la newsletter ?",
+    "unsubscribePlaceholder": "Entrez l'email à désabonner",
+    "unsubscribe": "Se désabonner",
+
+    "privacy": "Aucun spam. Uniquement des informations utiles. Désabonnement possible à tout moment.",
+    "serverError": "Erreur du serveur. Veuillez réessayer plus tard."
+  },
+"history": {
+    "title": "Figures Historiques du Cameroun",
+    "figures": {
+      "eto": {
+        "name": "Samuel Eto'o",
+        "text": "Samuel Eto'o Fils est l'un des footballeurs les plus titrés d'Afrique, largement considéré comme l'un des meilleurs attaquants de l'histoire. Quadruple Ballon d'Or Africain, il a mené les Lions Indomptables à deux titres de la CAN et à une médaille d'or olympique. Au-delà du terrain, il est devenu une figure majeure de l'administration sportive en tant que président de la FECAFOOT et demeure un ambassadeur mondial de l'excellence et de la philanthropie camerounaise."
+      },
+      "ahidjo": {
+        "name": "Ahmadou Ahidjo",
+        "text": "Ahmadou Ahidjo a été le premier président de la République du Cameroun de 1960 à 1982. Il a joué un rôle central dans l'unification des territoires sous administration française et britannique. Son règne a été marqué par une volonté de stabilité nationale, le développement des infrastructures et la « Révolution Verte » pour dynamiser l'agriculture. On se souvient de lui comme du père fondateur qui a dirigé le pays durant les premières années complexes de l'indépendance."
+      },
+      "fruNdi": {
+        "name": "John Fru Ndi",
+        "text": "John Fru Ndi a été une figure déterminante du retour au multipartisme au Cameroun dans les années 1990. Fondateur du Social Democratic Front (SDF), il est devenu le visage de l'opposition, prônant la justice sociale et des réformes politiques profondes. Son leadership charismatique et son slogan « Power to the People » ont mobilisé des millions de citoyens, transformant durablement le paysage politique et l'engagement civique au Cameroun."
+      },
+      "umNyobe": {
+        "name": "Ruben Um Nyobè",
+        "text": "Surnommé « Mpodol » (celui qui porte la parole des siens), Ruben Um Nyobè était un leader nationaliste brillant à la tête de l'UPC. Il a milité avec ferveur pour l'indépendance totale et la réunification immédiate du Cameroun. Sa profondeur intellectuelle et son engagement pour la cause populaire en ont fait un symbole de résistance ; bien qu'il soit tombé en 1958, son héritage en tant qu'âme du mouvement pour l'indépendance reste immortel."
+      },
+      "mangaBell": {
+        "name": "Rudolf Duala Manga Bell",
+        "text": "Rudolf Duala Manga Bell était le roi des Duala et un chef courageux de la résistance anti-coloniale contre l'administration allemande. Il a mené une bataille juridique et politique acharnée contre l'expropriation forcée des terres ancestrales de son peuple. Malgré ses tentatives de diplomatie, il fut exécuté en 1914. Aujourd'hui, il est honoré comme un martyr national et un héros ayant sacrifié sa vie pour défendre la dignité et les droits fonciers des Camerounais."
+      }
+    }
+  },
+  "culture": {
+    "title": "Culture du Cameroun",
+    "items": {
+      "attire": {
+        "title": "Tenues Traditionnelles",
+        "text": "Les tenues traditionnelles camerounaises reflètent l'mmense diversité culturelle du pays. Chaque région et chaque groupe ethnique possède des styles vestimentaires uniques qui symbolisent l'identité, le statut social et l'héritage culturel.\nDu Toghu richement brodé des Grassfields aux pagnes colorés portés à travers le pays, l'habillement joue un rôle essentiel lors des cérémonies, des festivals et des rites de passage. Ces vêtements sont souvent ornés de motifs symboliques exprimant l'histoire, les valeurs et la hiérarchie sociale.\nLa tenue traditionnelle demeure une expression forte de fierté et de continuité, reliant les Camerounais d'aujourd'hui à leurs racines ancestrales."
+      },
+      "music": {
+        "title": "Musique et Danse",
+        "text": "La musique et la danse sont des piliers centraux de la culture camerounaise, servant à la narration, à la célébration et à l'expression spirituelle. Chaque groupe ethnique possède ses propres rythmes, instruments et mouvements de danse.\nDes genres tels que le Makossa, le Bikutsi et l'Assiko ont dépassé les frontières nationales pour acquérir une reconnaissance internationale. Les tambours traditionnels, balafons et flûtes accompagnent des danses exécutées lors des festivals, funérailles et cérémonies royales.\n\nÀ travers la musique et la danse, le savoir culturel est transmis de génération en génération, préservant l'identité et la mémoire collective."
+      },
+      "food": {
+        "title": "Gastronomie",
+        "text": "La cuisine camerounaise est réputée pour sa richesse, ses épices et sa diversité. Souvent décrite comme une fusion de traditions africaines, européennes et locales, elle varie considérablement selon les régions.\n\nLes plats emblématiques incluent le Ndolé, l'Eru, l'Achu et le Koki, généralement préparés à base de manioc, de plantain, de maïs et de légumes-feuilles. Les repas sont des moments profondément sociaux, réunissant familles et communautés.\n\nAu Cameroun, la nourriture est bien plus qu'un simple moyen de subsistance : elle est une expression culturelle de l'hospitalité, de l'unité et de la tradition."
+      },
+      "languages": {
+        "title": "Langues et Traditions Orales",
+        "text": "Le Cameroun est l'un des pays les plus diversifiés linguistiquement en Afrique, avec plus de 250 langues locales parlées aux côtés du français et de l'anglais, langues officielles.\n\nLes traditions orales telles que les contes, proverbes et légendes jouent un rôle fondamental dans l'éducation et la transmission des valeurs morales. Les anciens transmettent la sagesse et l'histoire à travers des récits, des chants et des formules orales.\n\nLa langue et l'expression orale demeurent essentielles à la préservation culturelle, renforçant l'identité et les valeurs communautaires."
+      },
+      "customs": {
+        "title": "Coutumes et Vie Sociale",
+        "text": "Les coutumes et pratiques sociales régissent la vie quotidienne au sein des communautés camerounaises. Le respect des aînés, la solidarité communautaire et le système de la famille élargie constituent les fondements de l'organisation sociale.\n\nLes cérémonies telles que les mariages, les rites de nomination et les funérailles sont célébrées selon des traditions profondément enracinées, souvent accompagnées de musique, de danse et de rituels symboliques.\n\nCes coutumes favorisent l'unité, la continuité et un fort sentiment d'appartenance entre les générations."
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Bienvenue au Cameroun",
+      "subtitle": "Découvrez notre histoire, notre culture et explorez notre magnifique pays",
+      "unsupported": "Votre navigateur ne supporte pas la balise vidéo."
+    },
+    "history": {
+      "title": "Histoire",
+      "subtitle": "Découvrez les figures inspirantes qui ont rendu notre pays fier !",
+      "figures": [
+        { "name": "Samuel Eto'o", "description": "Célèbre footballeur camerounais reconnu dans le monde entier" },
+        { "name": "Ahmadou Ahidjo", "description": "Premier président du Cameroun ayant joué un rôle clé dans son indépendance." },
+        { "name": "John Fru Ndi", "description": "Président actuel du Cameroun avec un leadership de plusieurs décennies." },
+        { "name": "Um Nyobè", "description": "Leader nationaliste engagé dans la lutte pour l'indépendance du Cameroun." },
+        { "name": "Rudolf Duala Manga Bell", "description": "Roi et résistant camerounais durant la période coloniale allemande." }
+      ],
+      "readMore": "En savoir plus"
+    },
+    "culture": {
+    "title": "Culture du Cameroun",
+    "readMore": "En savoir plus",
+    "items": {
+      "attire": {
+        "title": "Tenues Traditionnelles",
+        "text": "Les tenues traditionnelles camerounaises reflètent la grande diversité culturelle du pays. Chaque région possède des styles vestimentaires uniques symbolisant l'identité, le statut social et l'héritage. Du Toghu richement brodé aux pagnes colorés, ces vêtements sont portés lors des cérémonies et fêtes traditionnelles."
+      },
+      "music": {
+        "title": "Musique et Danse",
+        "text": "La musique et la danse occupent une place centrale dans la culture camerounaise. Des genres comme le Makossa, le Bikutsi et l'Assiko sont reconnus à l'international. Les instruments traditionnels accompagnent des danses exécutées lors de cérémonies culturelles."
+      },
+      "cuisine": {
+        "title": "Gastronomie",
+        "text": "La cuisine camerounaise est riche et variée. Des plats emblématiques comme le Ndolé, l'Eru, l'Achu et le Koki sont préparés à base de produits locaux. Les repas sont des moments de partage et de convivialité."
+      },
+      "language": {
+        "title": "Langues et Traditions Orales",
+        "text": "Le Cameroun compte plus de 250 langues locales en plus du français et de l'anglais. Les traditions orales telles que les contes, proverbes et chants permettent de transmettre l'histoire et les valeurs culturelles."
+      },
+      "customs": {
+        "title": "Coutumes et Vie Sociale",
+        "text": "Les coutumes structurent la vie sociale au Cameroun. Le respect des aînés, la solidarité communautaire et les liens familiaux sont essentiels. Les cérémonies traditionnelles renforcent le sentiment d'appartenance."
+      }
+    }
+        
+    },
+    "explore": {
+      "title": "Explorer",
+      "subtitle": "Découvrez les merveilles naturelles et les trésors cachés du Cameroun !",
+      "items": [
+        {
+    "title": "Gorges de Kola",
+    "description": "Le contraste entre les rochers blanchis par le soleil et les bassins d'eau d'un bleu profond est tout simplement spectaculaire."
+  },
+  {
+    "title": "Lac Tison",
+    "description": "Un lieu d'une sérénité absolue. Contrairement à d'autres sites plus animés, le lac Tison est idéal pour la réflexion paisible, les pique-niques et la photographie."
+  },
+  {
+    "title": "Rhumsiki et les Monts Mandara",
+    "description": "La région abrite le peuple Kapsiki, dont les coutumes et l'architecture restent profondément préservées."
+  },
+  {
+    "title": "Mont Cameroun",
+    "description": "Le plus haut sommet d'Afrique de l'Ouest, offrant des vues à couper le souffle et des aventures de randonnée inoubliables."
+  }
+      ],
+      "readMore": "En savoir plus"
+    },
+    "newsletter": {
+      "title": "Abonnez-vous à notre Newsletter",
+      "subtitle": "Recevez les dernières mises à jour sur la culture, l'histoire et les villes du Cameroun !",
+      "placeholder": "Entrez votre email",
+      "button": "S'abonner",
+      "enterEmail": "Veuillez entrer votre email",
+      "serverError": "Erreur serveur. Veuillez réessayer plus tard."
+    }
+  },
+  "foodPage": {
+    "title": "Plats Traditionnels Camerounais",
+    "ekwang": {
+      "name": "Ekwang",
+      "description": "Le Ekwang est un plat traditionnel camerounais préparé à base de macabo râpé enveloppé dans des feuilles de macabo et cuit avec de l'huile de palme, des épices et de la viande ou du poisson."
+    },
+    "eru": {
+      "name": "Eru",
+      "description": "Le Eru est un plat de légumes-feuilles préparé avec des feuilles d'eru finement coupées, du waterleaf, de l'huile de palme et de la viande ou du poisson."
+    },
+    "mbongo": {
+      "name": "Mbongo Tchobi",
+      "description": "Le Mbongo Tchobi est une sauce noire et épicée préparée avec des épices grillées et traditionnellement cuisinée avec du poisson."
+    },
+    "kondre": {
+      "name": "Kondre",
+      "description": "Le Kondre est un plat traditionnel à base de plantain mûr, cuisiné avec du porc, des épices et des herbes aromatiques."
+    }
+  },
+  "languagePage": {
+    "title": "Langues Ethniques du Cameroun",
+    "ewondo": {
+      "name": "Ewondo",
+      "description": "L'ewondo est principalement parlé dans la région du Centre du Cameroun. Il est utilisé dans la communication quotidienne et les cérémonies traditionnelles."
+    },
+    "duala": {
+      "name": "Duala",
+      "description": "Le duala est parlé dans la région du Littoral et a joué un rôle important dans le commerce et les échanges culturels."
+    },
+    "fulfulde": {
+      "name": "Fulfulde",
+      "description": "Le fulfulde est parlé par les Peuls dans le nord du Cameroun et dans plusieurs pays d'Afrique de l'Ouest et Centrale."
+    },
+    "bassa": {
+      "name": "Bassa",
+      "description": "Le bassa est parlé dans les régions du Centre et du Littoral et joue un rôle important dans l'identité culturelle."
+    }
+  },
+  "attirePage": {
+    "title": "Tenues Traditionnelles du Cameroun",
+    "toghu": {
+      "name": "Toghu",
+      "description": "Originaire des Grassfields dans la région du Nord-Ouest, le Toghu est un vêtement majestueux en velours noir lourd, brodé à la main. Il se distingue par ses motifs colorés et complexes (généralement jaune, rouge et blanc). Autrefois réservé à la royauté et aux notables, il est devenu un symbole mondial de l'identité camerounaise."
+    },
+    "sanja": {
+      "name": "Sanja",
+      "description": "Le Sanja est le vêtement traditionnel des peuples Sawa (régions côtières comme Douala). C'est un grand morceau de tissu de haute qualité (souvent un caleçon ou une soie) enveloppé autour de la taille et descendant jusqu'aux chevilles, associé à une chemise blanche et un foulard. Il représente l'élégance et l'esprit du gentleman des hommes côtiers lors des cérémonies importantes et du festival Ngondo."
+    },
+    "ndop": {
+      "name": "Ndop",
+      "description": "Le Ndop est un tissu traditionnel teint à l'indigo, également issu des Grassfields (Ouest et Nord-Ouest). Il se caractérise par des motifs géométriques blancs sur un fond bleu foncé. Ce tissu est sacré : il décore les chefferies, enveloppe la dépouille des chefs et sert de décor lors des cérémonies de justice traditionnelle."
+    },
+    "obom": {
+      "name": "Obom",
+      "description": "L'Obom est un tissu d'écorce unique, fabriqué à partir de l'écorce battue d'un arbre (le figuier tropical). Typique des peuples Beti-Fang et des peuples de la forêt (Centre, Sud, Est), c'est l'un des plus anciens textiles du Cameroun. Aujourd'hui, il est utilisé pour les rites, les costumes de danse et la haute couture pour honorer les racines ancestrales."
+    }
+  },
+   "dancePage": {
+    "title": "Danses Traditionnelles du Cameroun",
+    "bikutsi": {
+      "name": "Bikutsi",
+      "description": "Le Bikutsi est une danse rythmée de la région du Centre, exécutée lors des célébrations avec des mouvements énergiques et des percussions."
+    },
+    "ambass": {
+      "name": "Ambass Bey",
+      "description": "L'Ambass Bey est une danse traditionnelle de la région du Littoral, connue pour ses mouvements élégants et sa signification culturelle."
+    },
+    "ben": {
+      "name": "Bensikin",
+      "description": "Le Bensikin est une danse traditionnelle des peuples Bamileke de la région de l'Ouest du Cameroun."
+    },
+    "assiko": {
+      "name": "Assiko",
+      "description": "L'Assiko est une danse traditionnelle du peuple Sawa, exécutée lors du festival Ngondo le long de la rivière Wouri."
+    }
+  },
+  "destinationsPage": {
+    "title": "Sites Incontournables du Cameroun",
+    "mountCameroon": {
+      "title": "Mont Cameroun",
+      "text": "Le mont Cameroun, également connu sous le nom de Mont Fako, est la plus haute montagne d'Afrique occidentale et centrale. Situé dans la région du Sud-Ouest, il s'élève majestueusement depuis la côte atlantique, offrant un mélange unique de paysages volcaniques, de forêts et de végétation alpine.\n\nLe volcan est toujours actif et revêt une importance culturelle majeure pour les communautés locales. Il accueille également la course annuelle du « Mont Cameroun Race of Hope », attirant des athlètes du monde entier.\n\nExplorer le mont Cameroun est à la fois un défi physique et une expérience culturelle, ce qui en fait l'un des monuments naturels les plus emblématiques du pays."
+    },
+    "gorgesKola": {
+      "title": "Gorges de Kola",
+      "text": "Souvent appelées le « Grand Canyon du Cameroun », les Gorges de Kola sont un chef-d'œuvre géologique massif sculpté au fil des millénaires par la rivière Mayo-Louti.\n\nImaginez d'immenses rochers de calcaire gris pâle, lisses et polis par l'eau pour former des silhouettes surréalistes et fluides. Pendant la saison sèche, vous pouvez vous enfoncer dans le canyon pour explorer des grottes et des passages étroits où les parois s'élèvent jusqu'à 30 mètres de haut.\n\nLe meilleur moment pour visiter est pendant la saison sèche (de fin novembre à avril)."
+    },
+    "lakeTison": {
+      "title": "Lac Tison",
+      "text": "Le lac Tison est un magnifique lac de cratère volcanique niché sur le plateau de l'Adamaoua. Il est célèbre pour sa forme circulaire presque parfaite et ses eaux profondes passant du turquoise à l'émeraude. Le lac est entouré d'une ceinture d'arbres verdoyants et de roches volcaniques qui se reflètent magnifiquement sur sa surface calme."
+    },
+    "ekomNkam": {
+      "title": "Chutes d'Ekom Nkam",
+      "text": "Cachées au cœur d'une forêt tropicale dense, ces chutes sont sans doute les cascades les plus célèbres du Cameroun. Le site présente deux chutes distinctes. La tradition locale les appelle les chutes « Mâle » et « Femelle ». La chute mâle coule puissamment toute l'année, tandis que la chute femelle n'est visible dans toute sa splendeur que pendant la saison des pluies."
+    },
+    "rhumsiki": {
+      "title": "Rhumsiki et les Monts Mandara",
+      "text": "Rhumsiki, niché dans les monts Mandara, est connu pour ses formations rocheuses volcaniques spectaculaires et ses riches traditions culturelles. La région abrite le peuple Kapsiki, dont les coutumes et l'architecture restent profondément préservées.\n\nLes visiteurs sont attirés par les paysages uniques, les cases traditionnelles et l'artisanat local. La région offre également des vues panoramiques et un sentiment d'intemporalité.\n\nRhumsiki représente parfaitement la diversité culturelle et géologique du nord du Cameroun."
+    }
+  }
+
+}

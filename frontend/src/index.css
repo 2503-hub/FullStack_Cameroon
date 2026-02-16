@@ -1,0 +1,25 @@
+* {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+  /* Base */
+  --bg-main: #f9faf7;        /* very light warm background */
+  --bg-section: #ffffff;
+  --text-primary: #1f2933;   /* soft dark, not pure black */
+  --text-secondary: #4b5563;
+
+  /* Accent colors (Cameroon-inspired but muted) */
+  --accent-green: #2f855a;
+  --accent-red: #c53030;
+  --accent-yellow: #d69e2e;
+
+  /* UI */
+  --card-bg: #ffffff;
+  --card-border: rgba(0, 0, 0, 0.05);
+  --shadow-soft: 0 10px 25px rgba(0, 0, 0, 0.08);
+  --shadow-medium: 0 15px 35px rgba(0, 0, 0, 0.1);
+}

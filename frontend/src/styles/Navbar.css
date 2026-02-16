@@ -1,0 +1,225 @@
+/* --- Global Navbar Container --- */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8rem 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 1000;
+  background: rgba(185, 157, 157, 0.75); /* Frosted effect */
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 15px; 
+  height: 70px; 
+}
+
+.logo a {
+  font-weight: 800;
+  font-size: 1.5rem;
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+/* --- Navigation Links (Desktop) --- */
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a, .dropdown-title {
+  color: #333;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 0.95rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.nav-links a:hover {
+  color: #e3ae10;
+}
+
+/* --- Dropdown Logic (Desktop) --- */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #ffffff;
+  min-width: 200px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  padding: 10px 0;
+  list-style: none;
+  /* Critical: Hidden by default */
+  display: none; 
+  z-index: 1000;
+}
+
+/* Only show dropdown on hover */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li a {
+  padding: 10px 20px;
+  font-size: 0.9rem;
+  display: block;
+  border-bottom: none;
+}
+
+.dropdown-menu li a:hover {
+  background: #f8f8f8;
+  color: #ffcc33;
+}
+
+.dropdown-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.dropdown-title {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
+.arrow-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 5px; /* Bigger touch target for mobile */
+  cursor: pointer;
+}
+
+.arrow.rotated {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease;
+}
+
+/* --- Language Switcher Pill --- */
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.language-switcher {
+  display: flex;
+  background: rgba(0, 0, 0, 0.05);
+  padding: 4px;
+  border-radius: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.language-switcher button {
+  background: transparent;
+  border: none;
+  padding: 6px 14px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 50px;
+  color: #444;
+}
+
+.language-switcher button.active {
+  background: #ffcc33;
+  color: #000;
+}
+
+/* --- Desktop Settings --- */
+.hamburger {
+  display: none; /* Icon is hidden on desktop */
+  cursor: pointer;
+  color: #1a1a1a;
+  z-index: 2000; /* Higher than the nav-links drawer */
+  transition: transform 0.3s ease;
+}
+
+/* --- Mobile Responsiveness (Below 900px) --- */
+@media (max-width: 900px) {
+  html, body {
+    overflow-x: hidden;
+  }
+
+  .hamburger {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav-links {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    width: 280px;
+    background: #ffffff;
+    flex-direction: column;
+    padding: 80px 30px; 
+    transition: 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    box-shadow: -10px 0 30px rgba(0,0,0,0.1);
+    display: flex;
+  }
+
+  .nav-links.open {
+    right: 0; 
+  }
+
+  .language-switcher {
+    transform: scale(0.85); 
+    margin-right: 5px;
+  }
+
+  /* Culture Dropdown for Mobile */
+  .dropdown-menu {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+    box-shadow: none;
+    width: 100%;
+    padding-left: 15px;
+    background: #f9f9f9;
+    display: none; 
+  }
+
+  .dropdown.active .dropdown-menu {
+    display: block;
+  }
+
+
+}
+
+/* Desktop Hover Logic */
+@media (min-width: 901px) {
+  .dropdown:hover .dropdown-menu {
+    display: block; /* Dropdown only appears on hover on desktop */
+  }
+}

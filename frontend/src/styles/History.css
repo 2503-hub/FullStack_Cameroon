@@ -1,0 +1,60 @@
+.history-page {
+    padding: 80px 8%;
+          background: #f9f9f9;
+        }
+ .history-title {
+          text-align: center;
+          font-size: 3rem;
+          margin-bottom: 80px;
+          color: #1a1a1a;
+        }
+
+        .history-article {
+          display: flex;
+          align-items: center;
+          gap: 50px;
+          margin-bottom: 100px;
+        }
+
+        .history-article.reverse {
+          flex-direction: row-reverse;
+        }
+
+        .history-article img {
+          width: 320px;
+          height: 380px;
+          object-fit: cover;
+          border-radius: 15px;
+          box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        }
+
+        .article-text h2 {
+          font-size: 2rem;
+          margin-bottom: 20px;
+          color: #111;
+        }
+
+        .article-text p {
+          font-size: 1.05rem;
+          line-height: 1.8;
+          color: #444;
+          text-align: justify;
+        }
+
+        @media (max-width: 900px) {
+          .history-article,
+          .history-article.reverse {
+            flex-direction: column;
+            text-align: center;
+          }
+
+          .history-article img {
+            width: 100%;
+            max-width: 350px;
+            height: auto;
+          }
+
+          .article-text p {
+            text-align: left;
+          }
+        }
