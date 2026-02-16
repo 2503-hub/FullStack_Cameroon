@@ -1,4 +1,3 @@
-
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import "../styles/Home.css";
@@ -8,51 +7,64 @@ import { useTranslation } from "react-i18next";
 const Home = () => {
   const { t } = useTranslation();
 
-  // Example data for historical figures (moved inside component so `t` is available)
-  const historyFiguresData = t("home.history.figures", {
-  returnObjects: true,
-});
-
-const historicalFigures = historyFiguresData.map((figure, index) => ({
-  id: index + 1,
-  name: figure.name,
-  description: figure.description,
-  img: [
+  const historyFiguresData = t("home.history.figures", { returnObjects: true });
+  const historyImages = [
     "/assets/samuel.jpg",
-    "/assets/Ahidjo.webp",
+    "/assets/ahidjo.webp",
     "/assets/fru.webp",
     "/assets/um.webp",
     "/assets/manga.jpg",
-  ][index],
-}));
+  ];
+  const safeHistoryFigures = Array.isArray(historyFiguresData)
+    ? historyFiguresData
+    : [];
+
+  const historicalFigures = safeHistoryFigures.map((figure, index) => ({
+    id: index + 1,
+    name: typeof figure.name === "string" ? figure.name : "",
+    description:
+      typeof figure.description === "string"
+        ? figure.description
+        : typeof figure.text === "string"
+          ? figure.text
+          : "",
+    img: historyImages[index],
+  }));
 
   // diverse cultural aspects of Cameroon
-  const cultureItems = [
-    {
-      id: 1,
-      title: t("home.culture.items.0.title"),
-      img: "/assets/dance-culture.png",
-      description: t("home.culture.items.0.description"),
-    },
-    {
-      id: 2,
-      title: t("home.culture.items.1.title"),
-      img: "/assets/food.jpg",
-      description: t("home.culture.items.1.description"),
-    },
-    {
-      id: 3,
-      title: t("home.culture.items.2.title"),
-      img: "/assets/flag.jpg",
-      description: t("home.culture.items.2.description"),
-    },
-    {
-      id: 4,
-      title: t("home.culture.items.3.title"),
-      img: "/assets/ngondo.jpg",
-      description: t("home.culture.items.3.description"),
-    },
+  const cultureItemsData = t("home.culture.items", { returnObjects: true });
+  const cultureImages = [
+    "/assets/dance-culture.png",
+    "/assets/food.jpg",
+    "/assets/flag.jpg",
+    "/assets/ngondo.jpg",
   ];
+  const cultureItems = Array.isArray(cultureItemsData)
+    ? cultureItemsData.slice(0, 4).map((item, index) => ({
+        id: index + 1,
+        title: typeof item.title === "string" ? item.title : "",
+        img: cultureImages[index],
+        description:
+          typeof item.description === "string"
+            ? item.description
+            : typeof item.text === "string"
+              ? item.text
+              : "",
+      }))
+    : [
+        "attire",
+        "music",
+        "cuisine",
+        "language",
+      ].map((key, index) => ({
+        id: index + 1,
+        title: t(`home.culture.items.${key}.title`),
+        img: cultureImages[index],
+        description:
+          t(`home.culture.items.${key}.description`) ||
+          t(`home.culture.items.${key}.text`) ||
+          "",
+      }));
 
   // Variety of different landscapes and tourist attractions
   const exploreItems = [

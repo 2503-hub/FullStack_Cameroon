@@ -5,25 +5,25 @@ import "../styles/History.css"
 const figures = [
   {
     key: "eto",
-    image:"./assets/sam.jpg",
+    image:"/assets/sam.jpg",
     text: "Samuel Eto'o is a retired Cameroonian footballer widely regarded as one of the greatest African..."
   },
   {
     key: "ahidjo",
-    image:"./assets/ahidjo.webp",   
+    image:"/assets/ahidjo.webp",   
   },
   {
     key: "fruNdi",
-    image:"./assets/fru.webp",
+    image:"/assets/fru.webp",
       
   },
   {
     key: "umNyobe",
-    image:"./assets/um.webp",
+    image:"/assets/um.webp",
   },
   {
     key: "mangaBell",
-    image:"./assets/manga.jpg",
+    image:"/assets/manga.jpg",
   },
 ];
 
