@@ -17,7 +17,7 @@ const Contact = () => {
     if (!email.trim()) return;
 
     try {
-      const response = await fetch("http://localhost:4000/api/subscribe", {
+      const response = await fetch(`${BASE_URL}/api/subscribe`, {        
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email: email.trim() }),
@@ -43,7 +43,7 @@ const Contact = () => {
     if (!unsubscribeEmail.trim()) return;
 
     try {
-      const response = await fetch("http://localhost:4000/api/unsubscribe", {
+      const response = await fetch(`${BASE_URL}/api/unsubscribe`, {        
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email: unsubscribeEmail.trim() }),
