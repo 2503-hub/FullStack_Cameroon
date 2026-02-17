@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
+import "../styles/Contact.css"
 
 const Contact = () => {
   const { t } = useTranslation();
